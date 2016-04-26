@@ -1,0 +1,118 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.littlejumbo.shitshot.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cacador_1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"/>
+
+            <Button
+                android:id="@+id/cacador_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"/>
+
+            <Button
+                android:id="@+id/cacador_3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cacador_4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"/>
+
+            <Button
+                android:id="@+id/cacador_5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"/>
+
+            <Button
+                android:id="@+id/cacador_6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/cacador_7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"/>
+
+            <Button
+                android:id="@+id/cacador_8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"/>
+
+            <Button
+                android:id="@+id/cacador_9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="16dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_gravity="center"
+            android:background="#9c0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</FrameLayout>
